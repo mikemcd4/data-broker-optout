@@ -40,24 +40,42 @@ class BeenVerifiedHandler(BaseHandler):
 
         await asyncio.sleep(2)
 
-        # Fill the search form
-        await self.try_fill('input[name="firstName"], input[id*="first" i]', first)
-        await self.try_fill('input[name="lastName"], input[id*="last" i]', last)
+        # Fill the search form — BeenVerified uses React; fields may take a moment
+        await asyncio.sleep(1)
+        filled = 0
+        for sel in ['input[name="firstName"]', 'input[placeholder*="First" i]', 'input[id*="first" i]']:
+            if await self.try_fill(sel, first, timeout=3000):
+                filled += 1
+                break
+        for sel in ['input[name="lastName"]', 'input[placeholder*="Last" i]', 'input[id*="last" i]']:
+            if await self.try_fill(sel, last, timeout=3000):
+                filled += 1
+                break
 
         # State dropdown
         if state:
             try:
-                await self.page.select_option('select[name="state"], select[id*="state" i]', state)
+                await self.page.select_option('select[name="state"], select[id*="state" i]', state, timeout=3000)
             except Exception:
-                await self.try_fill('input[name="state"]', state)
+                await self.try_fill('input[name="state"], input[placeholder*="State" i]', state)
 
-        # Submit search
-        clicked = await self.try_click(
-            'button[type="submit"], button:has-text("Search"), input[type="submit"]'
-        )
-        if not clicked:
+        # Submit search — BeenVerified uses a styled button, try multiple selectors
+        clicked = False
+        for sel in [
+            'button[type="submit"]',
+            'button:has-text("Search")',
+            'input[type="submit"]',
+            '[data-testid*="search"]',
+            'button.btn-primary',
+        ]:
+            if await self.try_click(sel, timeout=3000):
+                clicked = True
+                break
+
+        if not clicked or filled < 2:
             return await self.pause_for_manual(
-                "Could not click Search button. Please search and opt-out manually."
+                "Please fill in your name and state, then click Search, "
+                "find your listing, and click Opt-Out."
             )
 
         await asyncio.sleep(4)

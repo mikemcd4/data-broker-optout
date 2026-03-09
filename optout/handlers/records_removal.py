@@ -35,26 +35,28 @@ class RecordsRemovalHandler(BaseHandler):
         await asyncio.sleep(2)
 
         # These platforms use a fairly standard form
-        await self.try_fill('input[name*="firstName" i], input[placeholder*="First" i]', first)
-        await self.try_fill('input[name*="lastName" i], input[placeholder*="Last" i]', last)
+        for sel in ['input[name*="firstName" i]', 'input[placeholder*="First" i]', 'input[name*="fname" i]']:
+            if await self.try_fill(sel, first, timeout=2000):
+                break
+        for sel in ['input[name*="lastName" i]', 'input[placeholder*="Last" i]', 'input[name*="lname" i]']:
+            if await self.try_fill(sel, last, timeout=2000):
+                break
         if state:
             try:
-                await self.page.select_option('select[name*="state" i]', state)
+                await self.page.select_option('select[name*="state" i]', state, timeout=2000)
             except Exception:
-                await self.try_fill('input[name*="state" i]', state)
+                await self.try_fill('input[name*="state" i], input[placeholder*="State" i]', state)
         if email:
-            await self.try_fill('input[type="email"], input[name*="email" i]', email)
+            for sel in ['input[type="email"]', 'input[name*="email" i]', 'input[placeholder*="email" i]']:
+                if await self.try_fill(sel, email, timeout=2000):
+                    break
 
-        # Check for CAPTCHA before submitting
-        has_captcha = await self.page.locator(
-            'iframe[src*="recaptcha"], iframe[src*="hcaptcha"], .g-recaptcha, .h-captcha'
-        ).count() > 0
+        # Always pause for CAPTCHA — these sites virtually always have one
+        return await self.pause_for_manual(
+            "Form pre-filled. Please solve the CAPTCHA (if present) and click Submit."
+        )
 
-        if has_captcha:
-            return await self.pause_for_manual(
-                "Form filled. A CAPTCHA is present — please solve it and click Submit."
-            )
-
+        # (unreachable — kept for reference if CAPTCHA detection is added back)
         submitted = await self.try_click(
             'button[type="submit"], input[type="submit"], '
             'button:has-text("Submit"), button:has-text("Send Request")',
