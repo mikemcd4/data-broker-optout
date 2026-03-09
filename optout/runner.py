@@ -8,6 +8,7 @@ import sys
 from colorama import Fore, Style, init as colorama_init
 
 from playwright.async_api import async_playwright
+from playwright_stealth import Stealth
 
 from .logger import ResultsLog
 from .handlers.factory import get_handler
@@ -71,6 +72,7 @@ async def run(
             ),
         )
         page = await context.new_page()
+        await Stealth().apply_stealth_async(page)  # mask automation signals
 
         for i, broker in enumerate(brokers, 1):
             broker_id = broker["id"]
