@@ -1,0 +1,36 @@
+# Copy this file to config.yaml and fill in your information.
+# config.yaml is listed in .gitignore and will NOT be committed to git.
+
+personal:
+  first_name: "John"
+  last_name: "Doe"
+  middle_name: ""          # optional — helps find records
+
+  # Your age or birth year helps narrow down results
+  age: 35
+  birth_year: 1989         # optional, used if site asks
+
+  # Current address
+  address:
+    street: "123 Main St"
+    city: "Springfield"
+    state: "IL"            # two-letter abbreviation
+    zip: "62701"
+
+  # Previous addresses (optional — some brokers list old addresses)
+  previous_addresses:
+    - city: "Chicago"
+      state: "IL"
+    - city: "Peoria"
+      state: "IL"
+
+  # Email used for opt-out confirmation links.
+  # TIP: use a dedicated throwaway address so your inbox isn't flooded.
+  email: "yourname@example.com"
+
+  phone: "5555550100"      # digits only, no dashes/spaces; optional
+
+  # Known relatives listed on people-search sites (optional)
+  relatives:
+    - "Jane Doe"
+    - "Robert Doe"

@@ -1,0 +1,1810 @@
+brokers:
+  - id: 411
+    name: "411"
+    opt_out_url: "https://www.whitepages.com/suppression-requests"
+    platform: whitepages
+    needs_email_verification: false
+    needs_phone_verification: false
+    needs_captcha: false
+    requirements: "Online submission"
+    notes: "Submit the URL of the entry you want to remove. The process will call asking for a PIN to confirm the removal."
+
+  - id: 411_info
+    name: "411 Info"
+    opt_out_url: "https://411.info/manage/"
+    platform: generic
+    needs_email_verification: false
+    needs_phone_verification: false
+    needs_captcha: false
+    requirements: "Online submission"
+    notes: "Online removal tool will complete the process."
+
+  - id: absolute_people_search
+    name: "Absolute People Search"
+    opt_out_url: "https://absolutepeoplesearch.com/public.php?funct=optout"
+    platform: generic
+    needs_email_verification: true
+    needs_phone_verification: false
+    needs_captcha: false
+    requirements: "Online submission, email verification"
+    notes: "Complete online removal submission."
+
+  - id: acxiom
+    name: "Acxiom"
+    opt_out_url: "https://isapps.acxiom.com/optout/optout.aspx"
+    platform: generic
+    needs_email_verification: false
+    needs_phone_verification: false
+    needs_captcha: false
+    requirements: "Online submission"
+    notes: "Online removal tool will complete the process."
+
+  - id: addresses
+    name: "Addresses"
+    opt_out_url: "https://www.intelius.com/opt-out/submit/"
+    platform: intelius
+    needs_email_verification: false
+    needs_phone_verification: false
+    needs_captcha: false
+    requirements: "Online submission"
+    notes: "Online removal tool will complete the process."
+
+  - id: address_search
+    name: "Address Search"
+    opt_out_url: "https://addresssearch.com/remove-info.php"
+    platform: generic
+    needs_email_verification: false
+    needs_phone_verification: false
+    needs_captcha: false
+    requirements: "Online submission"
+    notes: "Online removal tool will complete the process."
+
+  - id: advanced_background_checks
+    name: "Advanced Background Checks"
+    opt_out_url: "https://www.advancedbackgroundchecks.com/removal"
+    platform: generic
+    needs_email_verification: false
+    needs_phone_verification: false
+    needs_captcha: false
+    requirements: "Online submission"
+    notes: "Online removal tool will complete the process."
+
+  - id: all_area_codes
+    name: "All Area Codes"
+    opt_out_url: "https://www.allareacodes.com/remove_name.htm"
+    platform: generic
+    needs_email_verification: false
+    needs_phone_verification: false
+    needs_captcha: false
+    requirements: "Online submission"
+    notes: "Online removal tool will complete the process."
+
+  - id: all_people
+    name: "All People"
+    opt_out_url: "http://www.americaphonebook.com/contact.php"
+    platform: generic
+    needs_email_verification: false
+    needs_phone_verification: false
+    needs_captcha: false
+    requirements: "Online submission"
+    notes: "Select profile, click on \u201cEdit List\u201d, then choose \u201cRemove Listing\u201d."
+
+  - id: america_phonebook
+    name: "America Phonebook"
+    opt_out_url: "http://www.americaphonebook.com/contact.php"
+    platform: generic
+    needs_email_verification: false
+    needs_phone_verification: false
+    needs_captcha: false
+    requirements: "Online submission"
+    notes: "Online removal tool will complete the process."
+
+  - id: anywho
+    name: "Anywho"
+    opt_out_url: "https://www.apollo.io/privacy-policy/remove/"
+    platform: generic
+    needs_email_verification: false
+    needs_phone_verification: false
+    needs_captcha: false
+    requirements: "Online submission"
+    notes: "Select profile and choose \u201cRemove Listing\u201d."
+
+  - id: ancestry
+    name: "Ancestry"
+    opt_out_url: "https://www.apollo.io/privacy-policy/remove/"
+    platform: generic
+    needs_email_verification: true
+    needs_phone_verification: false
+    needs_captcha: false
+    requirements: "Email submission"
+    notes: "Send message to both email addresses requesting specific information removal."
+
+  - id: apollo
+    name: "Apollo"
+    opt_out_url: "https://www.apollo.io/privacy-policy/remove/"
+    platform: generic
+    needs_email_verification: false
+    needs_phone_verification: false
+    needs_captcha: false
+    requirements: "Online submission"
+    notes: "Online removal tool will complete the process."
+
+  - id: archives
+    name: "Archives"
+    opt_out_url: "https://archives.com/optout"
+    platform: generic
+    needs_email_verification: false
+    needs_phone_verification: false
+    needs_captcha: false
+    requirements: "Online submission"
+    notes: "Online removal tool will complete the process."
+
+  - id: arrest_facts
+    name: "Arrest Facts"
+    opt_out_url: "https://www.backgroundalert.com/optout/"
+    platform: generic
+    needs_email_verification: false
+    needs_phone_verification: false
+    needs_captcha: false
+    requirements: "Online submission"
+    notes: "Click \u201cInformation Control\u201d on any record and follow removal instructions."
+
+  - id: background_alert
+    name: "Background Alert"
+    opt_out_url: "https://www.backgroundalert.com/optout/"
+    platform: generic
+    needs_email_verification: false
+    needs_phone_verification: false
+    needs_captcha: false
+    requirements: "Online submission"
+    notes: "Online removal tool will complete the process."
+
+  - id: background_check
+    name: "Background Check"
+    opt_out_url: "https://backgroundcheck.run/ng/control/privacy"
+    platform: records_removal
+    needs_email_verification: false
+    needs_phone_verification: false
+    needs_captcha: false
+    requirements: "Online submission"
+    notes: "Online removal tool will complete the process."
+
+  - id: background_checkers
+    name: "Background Checkers"
+    opt_out_url: "https://www.backgroundcheckers.net/optOut/name/landing"
+    platform: generic
+    needs_email_verification: false
+    needs_phone_verification: false
+    needs_captcha: false
+    requirements: "Online submission"
+    notes: "Online removal tool will complete the process."
+
+  - id: batchskiptracing
+    name: "BatchSkipTracing"
+    opt_out_url: "https://batchskiptracing.com/personal-information"
+    platform: generic
+    needs_email_verification: false
+    needs_phone_verification: false
+    needs_captcha: false
+    requirements: "Online submission"
+    notes: "Online removal tool will complete the process."
+
+  - id: batchleads
+    name: "BatchLeads"
+    opt_out_url: "https://batchleads.io/personal-information"
+    platform: generic
+    needs_email_verification: false
+    needs_phone_verification: false
+    needs_captcha: false
+    requirements: "Online submission"
+    notes: "Online removal tool will complete the process."
+
+  - id: batchdialer
+    name: "BatchDialer"
+    opt_out_url: "https://batchdialer.com/personal-information"
+    platform: generic
+    needs_email_verification: false
+    needs_phone_verification: false
+    needs_captcha: false
+    requirements: "Online submission"
+    notes: "Online removal tool will complete the process."
+
+  - id: been_verified
+    name: "Been Verified"
+    opt_out_url: "https://www.beenverified.com/faq/opt-out/"
+    platform: beenverified
+    needs_email_verification: false
+    needs_phone_verification: false
+    needs_captcha: false
+    requirements: "Online submission"
+    notes: "Online removal tool will complete the process."
+
+  - id: blockshopper
+    name: "BlockShopper"
+    opt_out_url: "http://www.buzzfile.com/Company/Remove"
+    platform: generic
+    needs_email_verification: true
+    needs_phone_verification: false
+    needs_captcha: false
+    requirements: "Email submission"
+    notes: "Send email with removal request. Must cite special circumstances and expect resistance."
+
+  - id: buzzfile
+    name: "Buzzfile"
+    opt_out_url: "http://www.buzzfile.com/Company/Remove"
+    platform: generic
+    needs_email_verification: false
+    needs_phone_verification: false
+    needs_captcha: false
+    requirements: "Online submission"
+    notes: "Online removal tool will complete the process."
+
+  - id: cell_revealer
+    name: "Cell Revealer"
+    opt_out_url: "https://www.calltruth.com/opt_out.php"
+    platform: generic
+    needs_email_verification: false
+    needs_phone_verification: false
+    needs_captcha: false
+    requirements: "Online submission"
+    notes: "Online removal tool will complete the process. Click the link to the right of an entry."
+
+  - id: call_truth
+    name: "Call Truth"
+    opt_out_url: "https://www.calltruth.com/opt_out.php"
+    platform: generic
+    needs_email_verification: false
+    needs_phone_verification: false
+    needs_captcha: false
+    requirements: "Online submission"
+    notes: "Online removal tool will complete the process."
+
+  - id: caller_smart
+    name: "Caller Smart"
+    opt_out_url: "https://www.callersmart.com/opt-out"
+    platform: generic
+    needs_email_verification: true
+    needs_phone_verification: false
+    needs_captcha: false
+    requirements: "Online or Email submission"
+    notes: "Email submission bypasses account creation requirement."
+
+  - id: callyo
+    name: "Callyo"
+    opt_out_url: "https://centeda.com/ng/control/privacy"
+    platform: records_removal
+    needs_email_verification: true
+    needs_phone_verification: false
+    needs_captcha: false
+    requirements: "Email submission"
+    notes: "Email demanding removal of information associated with your number."
+
+  - id: cars_owners
+    name: "Cars Owners"
+    opt_out_url: "https://centeda.com/ng/control/privacy"
+    platform: records_removal
+    needs_email_verification: true
+    needs_phone_verification: false
+    needs_captcha: false
+    requirements: "Online Contact submission"
+    notes: "Email through the website requesting removal."
+
+  - id: catalog_choice
+    name: "Catalog Choice"
+    opt_out_url: "https://centeda.com/ng/control/privacy"
+    platform: records_removal
+    needs_email_verification: false
+    needs_phone_verification: false
+    needs_captcha: false
+    requirements: "Online submission"
+    notes: "Online removal tool will complete the process."
+
+  - id: centeda
+    name: "Centeda"
+    opt_out_url: "https://centeda.com/ng/control/privacy"
+    platform: records_removal
+    needs_email_verification: false
+    needs_phone_verification: false
+    needs_captcha: false
+    requirements: "Online submission"
+    notes: "Online removal tool will complete the process."
+
+  - id: check_people
+    name: "Check People"
+    opt_out_url: "https://www.checkpeople.com/opt-out"
+    platform: generic
+    needs_email_verification: false
+    needs_phone_verification: false
+    needs_captcha: false
+    requirements: "Online submission"
+    notes: "Online removal tool will complete the process."
+
+  - id: check_secrets
+    name: "Check Secrets"
+    opt_out_url: "https://www.checksecrets.com/optOut/name/landing"
+    platform: generic
+    needs_email_verification: false
+    needs_phone_verification: false
+    needs_captcha: false
+    requirements: "Online submission"
+    notes: "Online removal tool will complete the process."
+
+  - id: checkr
+    name: "Checkr"
+    opt_out_url: "https://candidate.checkr.com/privacy/delete"
+    platform: generic
+    needs_email_verification: false
+    needs_phone_verification: false
+    needs_captcha: false
+    requirements: "Online submission"
+    notes: "Online removal tool will complete the process."
+
+  - id: city_data
+    name: "City-Data"
+    opt_out_url: "https://www.city-data.com/privacy-form.php?w=usget"
+    platform: generic
+    needs_email_verification: false
+    needs_phone_verification: false
+    needs_captcha: false
+    requirements: "Online submission"
+    notes: "Online removal tool will complete the process."
+
+  - id: clustr_maps
+    name: "Clustr Maps"
+    opt_out_url: "https://clustrmaps.com/bl/opt-out"
+    platform: generic
+    needs_email_verification: false
+    needs_phone_verification: false
+    needs_captcha: false
+    requirements: "Online submission"
+    notes: "Online removal tool will complete the process."
+
+  - id: cocofinder
+    name: "CocoFinder"
+    opt_out_url: "https://cocofinder.com/remove-my-info"
+    platform: generic
+    needs_email_verification: false
+    needs_phone_verification: false
+    needs_captcha: false
+    requirements: "Online submission"
+    notes: "Online removal tool will complete the process."
+
+  - id: confidential_phone_lookup
+    name: "Confidential Phone Lookup"
+    opt_out_url: "https://contactout.com/optout"
+    platform: generic
+    needs_email_verification: false
+    needs_phone_verification: false
+    needs_captcha: false
+    requirements: "Online submission"
+    notes: "Online removal tool will complete the process."
+
+  - id: contact_out
+    name: "Contact Out"
+    opt_out_url: "https://contactout.com/optout"
+    platform: generic
+    needs_email_verification: true
+    needs_phone_verification: false
+    needs_captcha: false
+    requirements: "Email or Online Submission"
+    notes: "Send email with removal request or complete online request."
+
+  - id: connected_investors
+    name: "Connected Investors"
+    opt_out_url: "https://connectedinvestors.com/content/do-not-sell"
+    platform: generic
+    needs_email_verification: false
+    needs_phone_verification: false
+    needs_captcha: false
+    requirements: "Online Submission"
+    notes: "Online removal tool will complete the process."
+
+  - id: corporation_wiki
+    name: "Corporation Wiki"
+    opt_out_url: "https://www.corporationwiki.com/profiles/public"
+    platform: generic
+    needs_email_verification: false
+    needs_phone_verification: false
+    needs_captcha: false
+    requirements: "Online Submission"
+    notes: "Online removal tool will complete the process."
+
+  - id: councilon
+    name: "Councilon"
+    opt_out_url: "https://councilon.com/ex/control/privacy"
+    platform: records_removal
+    needs_email_verification: false
+    needs_phone_verification: false
+    needs_captcha: false
+    requirements: "Online submission"
+    notes: "Online removal tool will complete the process."
+
+  - id: cyber_background_checks
+    name: "Cyber Background Checks"
+    opt_out_url: "https://www.cyberbackgroundchecks.com/removal"
+    platform: generic
+    needs_email_verification: true
+    needs_phone_verification: false
+    needs_captcha: false
+    requirements: "Online or email submission"
+    notes: "Send email with removal request or submit online."
+
+  - id: data_axle
+    name: "Data Axle"
+    opt_out_url: "https://www.data-axle.com/do-not-sell-my-data/"
+    platform: generic
+    needs_email_verification: false
+    needs_phone_verification: false
+    needs_captcha: false
+    requirements: "Online submission"
+    notes: "Use removal link and fill out required parts of form."
+
+  - id: dataveria
+    name: "DataVeria"
+    opt_out_url: "https://dataveria.com/ng/control/privacy"
+    platform: records_removal
+    needs_email_verification: false
+    needs_phone_verification: false
+    needs_captcha: false
+    requirements: "Online submission"
+    notes: "Online removal tool will complete the process."
+
+  - id: datachk
+    name: "DataChk"
+    opt_out_url: "https://tinyurl.com/dexknowscom"
+    platform: generic
+    needs_email_verification: true
+    needs_phone_verification: false
+    needs_captcha: false
+    requirements: "Online submission"
+    notes: "Send email with removal request. Removes data from several subsidiaries."
+
+  - id: delvepoint
+    name: "DelvePoint"
+    opt_out_url: "https://tinyurl.com/dexknowscom"
+    platform: generic
+    needs_email_verification: true
+    needs_phone_verification: false
+    needs_captcha: false
+    requirements: "Email submission"
+    notes: "Send email with removal request."
+
+  - id: dexknows
+    name: "DexKnows"
+    opt_out_url: "https://tinyurl.com/dexknowscom"
+    platform: generic
+    needs_email_verification: false
+    needs_phone_verification: false
+    needs_captcha: false
+    requirements: "Online submission"
+    notes: "Online removal tool will complete the process."
+
+  - id: directmail
+    name: "DirectMail"
+    opt_out_url: "https://www.directmail.com/mail_preference/"
+    platform: generic
+    needs_email_verification: false
+    needs_phone_verification: false
+    needs_captcha: false
+    requirements: "Online submission"
+    notes: "Online removal tool will complete the process."
+
+  - id: dma_choice
+    name: "DMA Choice"
+    opt_out_url: "https://www.ims-dm.com/cgi/dncc.php"
+    platform: generic
+    needs_email_verification: false
+    needs_phone_verification: false
+    needs_captcha: false
+    requirements: "Online submission"
+    notes: "Follow instructions on removal link."
+
+  - id: epsilon_shopper
+    name: "Epsilon-Shopper"
+    opt_out_url: "https://www.familytreenow.com/optout"
+    platform: generic
+    needs_email_verification: true
+    needs_phone_verification: false
+    needs_captcha: false
+    requirements: "Email submission"
+    notes: "Send email with \u201cRemoval\u201d as the subject. Include name and address."
+
+  - id: fama
+    name: "Fama"
+    opt_out_url: "https://www.familytreenow.com/optout"
+    platform: generic
+    needs_email_verification: true
+    needs_phone_verification: false
+    needs_captcha: false
+    requirements: "Email submission"
+    notes: "Send email with removal request."
+
+  - id: familysearch
+    name: "FamilySearch"
+    opt_out_url: "https://www.familytreenow.com/optout"
+    platform: generic
+    needs_email_verification: true
+    needs_phone_verification: false
+    needs_captcha: false
+    requirements: "Email submission"
+    notes: "Send email with removal request."
+
+  - id: family_tree_now
+    name: "Family Tree Now"
+    opt_out_url: "https://www.familytreenow.com/optout"
+    platform: generic
+    needs_email_verification: false
+    needs_phone_verification: false
+    needs_captcha: false
+    requirements: "Online submission"
+    notes: "Online removal tool will complete the process."
+
+  - id: fast_people_search
+    name: "Fast People Search"
+    opt_out_url: "https://www.fastpeoplesearch.com/removal"
+    platform: generic
+    needs_email_verification: false
+    needs_phone_verification: false
+    needs_captcha: false
+    requirements: "Online submission"
+    notes: "Online removal tool will complete the process."
+
+  - id: fax_vin
+    name: "Fax VIN"
+    opt_out_url: "https://findpeoplesearch.com/customerservice/"
+    platform: generic
+    needs_email_verification: true
+    needs_phone_verification: false
+    needs_captcha: false
+    requirements: "Online contact submission"
+    notes: "Email through website to request removal."
+
+  - id: find_people_search
+    name: "Find People Search"
+    opt_out_url: "https://findpeoplesearch.com/customerservice/"
+    platform: generic
+    needs_email_verification: false
+    needs_phone_verification: false
+    needs_captcha: false
+    requirements: "Online submission"
+    notes: "Online removal tool will complete the process."
+
+  - id: free_background_checks
+    name: "Free Background Checks"
+    opt_out_url: "https://www.freepeopledirectory.com/optout"
+    platform: generic
+    needs_email_verification: true
+    needs_phone_verification: false
+    needs_captcha: false
+    requirements: "Email submission"
+    notes: "Email submission based on instruction listed on Privacy Policy page."
+
+  - id: free_people_directory
+    name: "Free People Directory"
+    opt_out_url: "https://www.freepeopledirectory.com/optout"
+    platform: generic
+    needs_email_verification: false
+    needs_phone_verification: true
+    needs_captcha: false
+    requirements: "Online submission"
+    notes: "Online removal tool will complete the process. Uses Spokeo for phone search."
+
+  - id: free_phone_tracer
+    name: "Free Phone Tracer"
+    opt_out_url: "https://www.beenverified.com/app/optout/search"
+    platform: beenverified
+    needs_email_verification: false
+    needs_phone_verification: false
+    needs_captcha: false
+    requirements: "Online submission"
+    notes: "Online removal tool will complete the process."
+
+  - id: glad_i_know
+    name: "Glad I Know"
+    opt_out_url: "https://gladiknow.com/opt-out"
+    platform: generic
+    needs_email_verification: false
+    needs_phone_verification: false
+    needs_captcha: false
+    requirements: "Online submission"
+    notes: "Online removal tool will complete the process."
+
+  - id: golookup
+    name: "GoLookup"
+    opt_out_url: "https://golookup.com/support/optout"
+    platform: generic
+    needs_email_verification: false
+    needs_phone_verification: false
+    needs_captcha: false
+    requirements: "Online submission"
+    notes: "Online removal tool will complete the process."
+
+  - id: grey_pages
+    name: "Grey Pages"
+    opt_out_url: "https://www.grey-pages.com/removal"
+    platform: generic
+    needs_email_verification: false
+    needs_phone_verification: false
+    needs_captcha: false
+    requirements: "Online submission"
+    notes: "Online removal tool will complete the process."
+
+  - id: haines_company
+    name: "Haines & Company"
+    opt_out_url: "https://www.hpcc-usa.org/research/change-listing.html"
+    platform: generic
+    needs_email_verification: true
+    needs_phone_verification: false
+    needs_captcha: false
+    requirements: "Email submission"
+    notes: "Send email with name and address and request to be removed from all databases."
+
+  - id: hpcc_usa
+    name: "HPCC-USA"
+    opt_out_url: "https://www.hpcc-usa.org/research/change-listing.html"
+    platform: generic
+    needs_email_verification: false
+    needs_phone_verification: false
+    needs_captcha: false
+    requirements: "Online submission"
+    notes: "Online removal tool will complete the process."
+
+  - id: id_crawl
+    name: "ID Crawl"
+    opt_out_url: "https://www.idcrawl.com/opt-out"
+    platform: generic
+    needs_email_verification: false
+    needs_phone_verification: false
+    needs_captcha: false
+    requirements: "Online submission"
+    notes: "Online removal tool will complete the process."
+
+  - id: id_true
+    name: "ID True"
+    opt_out_url: "https://www.idtrue.com/optout/"
+    platform: generic
+    needs_email_verification: false
+    needs_phone_verification: false
+    needs_captcha: false
+    requirements: "Online submission"
+    notes: "Online removal tool will complete the process."
+
+  - id: infopay
+    name: "Infopay"
+    opt_out_url: "https://infospace.intelius.com/optout.php"
+    platform: intelius
+    needs_email_verification: true
+    needs_phone_verification: false
+    needs_captcha: false
+    requirements: "Email submission"
+    notes: "Submit request to email contact."
+
+  - id: infospace
+    name: "Infospace"
+    opt_out_url: "https://infospace.intelius.com/optout.php"
+    platform: intelius
+    needs_email_verification: false
+    needs_phone_verification: false
+    needs_captcha: false
+    requirements: "Online submission"
+    notes: "Online removal tool will complete the process."
+
+  - id: infotracer
+    name: "Infotracer"
+    opt_out_url: "https://infotracer.com/optout"
+    platform: generic
+    needs_email_verification: false
+    needs_phone_verification: false
+    needs_captcha: false
+    requirements: "Online submission"
+    notes: "Online removal tool will complete the process. Alternative site: https://members.infotracer.com/removeMyData"
+
+  - id: infotracer_uk
+    name: "Infotracer UK"
+    opt_out_url: "https://infotracer.com/optout/"
+    platform: generic
+    needs_email_verification: true
+    needs_phone_verification: false
+    needs_captcha: false
+    requirements: "Online & Email submission"
+    notes: "Online removal tool will complete the process, must email for UK entries."
+
+  - id: instant_check_mate
+    name: "Instant Check Mate"
+    opt_out_url: "https://www.instantcheckmate.com/privacy-center/"
+    platform: instantcheckmate
+    needs_email_verification: false
+    needs_phone_verification: false
+    needs_captcha: false
+    requirements: "Online submission"
+    notes: "Online removal tool will complete the process."
+
+  - id: intelius
+    name: "Intelius"
+    opt_out_url: "https://www.intelius.com/opt-out"
+    platform: intelius
+    needs_email_verification: false
+    needs_phone_verification: false
+    needs_captcha: false
+    requirements: "Online submission"
+    notes: "Online removal tool will complete the process."
+
+  - id: irbsearch
+    name: "IRBSearch"
+    opt_out_url: "https://optout.lexisnexis.com"
+    platform: generic
+    needs_email_verification: true
+    needs_phone_verification: false
+    needs_captcha: false
+    requirements: "Email submission"
+    notes: "Email request required."
+
+  - id: lexisnexis_accurint
+    name: "LexisNexis/Accurint"
+    opt_out_url: "https://optout.lexisnexis.com"
+    platform: generic
+    needs_email_verification: false
+    needs_phone_verification: false
+    needs_captcha: false
+    requirements: "Online submission"
+    notes: "Online removal tool will complete the process. You can upload digital documents."
+
+  - id: lexisnexis_direct_marketing
+    name: "LexisNexis Direct Marketing"
+    opt_out_url: "https://www.lexisnexis.com/privacy/directmarketingopt-out.aspx"
+    platform: generic
+    needs_email_verification: false
+    needs_phone_verification: false
+    needs_captcha: false
+    requirements: "Online submission"
+    notes: "Online removal tool will complete the process."
+
+  - id: locate_family
+    name: "Locate Family"
+    opt_out_url: "https://www.locatefamily.com/removal2.html"
+    platform: generic
+    needs_email_verification: false
+    needs_phone_verification: false
+    needs_captcha: false
+    requirements: "Online submission"
+    notes: "Online removal tool will complete the process."
+
+  - id: mastercard
+    name: "Mastercard"
+    opt_out_url: "https://www.mastercard.us/en-us/vision/corp-responsibility/commitment-to-privacy/privacy/data-analytics-opt-out.html"
+    platform: generic
+    needs_email_verification: false
+    needs_phone_verification: false
+    needs_captcha: false
+    requirements: "Online Submission"
+    notes: "Online removal tool will complete the process."
+
+  - id: melissa_data
+    name: "Melissa Data"
+    opt_out_url: "https://www.mugshotlook.com/optOut/name/landing"
+    platform: generic
+    needs_email_verification: true
+    needs_phone_verification: false
+    needs_captcha: false
+    requirements: "Email Submission"
+    notes: "Send email with removal request."
+
+  - id: meritpages
+    name: "Meritpages"
+    opt_out_url: "https://www.mugshotlook.com/optOut/name/landing"
+    platform: generic
+    needs_email_verification: true
+    needs_phone_verification: false
+    needs_captcha: false
+    requirements: "Email Submission"
+    notes: "Send email with removal request."
+
+  - id: mugshotlook
+    name: "MugshotLook"
+    opt_out_url: "https://www.mugshotlook.com/optOut/name/landing"
+    platform: generic
+    needs_email_verification: false
+    needs_phone_verification: false
+    needs_captcha: false
+    requirements: "Online submission"
+    notes: "Online removal tool will complete the process."
+
+  - id: myheritage
+    name: "MyHeritage"
+    opt_out_url: "https://faq.myheritage.com/en/article/how-do-i-delete-my-account-on-myheritage"
+    platform: generic
+    needs_email_verification: true
+    needs_phone_verification: false
+    needs_captcha: false
+    requirements: "Email Submission"
+    notes: "Send email with removal request(s)."
+
+  - id: mylife
+    name: "MyLife"
+    opt_out_url: "https://www.mylife.com/ccpa/index.pubview"
+    platform: generic
+    needs_email_verification: true
+    needs_phone_verification: false
+    needs_captcha: false
+    requirements: "Email or online submission"
+    notes: "Send email with removal request. CA residents can use the opt-out link."
+
+  - id: national_cellular_directory
+    name: "National Cellular Directory"
+    opt_out_url: "https://www.nationalcellulardirectory.com/optout/"
+    platform: generic
+    needs_email_verification: false
+    needs_phone_verification: false
+    needs_captcha: false
+    requirements: "Online submission"
+    notes: "Online removal tool will complete the process."
+
+  - id: neighbor_report
+    name: "Neighbor Report"
+    opt_out_url: "https://neighbor.report/remove"
+    platform: generic
+    needs_email_verification: false
+    needs_phone_verification: false
+    needs_captcha: false
+    requirements: "Online submission"
+    notes: "Online removal tool will complete the process."
+
+  - id: newenglandfacts
+    name: "NewEnglandFacts"
+    opt_out_url: "https://newenglandfacts.com/ng/control/privacy"
+    platform: records_removal
+    needs_email_verification: false
+    needs_phone_verification: false
+    needs_captcha: false
+    requirements: "Online submission"
+    notes: "Online removal tool will complete the process."
+
+  - id: number_guru
+    name: "Number Guru"
+    opt_out_url: "https://www.beenverified.com/app/optout/search"
+    platform: beenverified
+    needs_email_verification: false
+    needs_phone_verification: false
+    needs_captcha: false
+    requirements: "Online submission."
+    notes: "Online removal tool will complete the process."
+
+  - id: nuwber
+    name: "Nuwber"
+    opt_out_url: "https://nuwber.com/removal/link"
+    platform: generic
+    needs_email_verification: false
+    needs_phone_verification: false
+    needs_captcha: false
+    requirements: "Online submission"
+    notes: "Online removal tool will complete the process."
+
+  - id: official_usa
+    name: "Official USA"
+    opt_out_url: "https://www.officialusa.com/opt-out"
+    platform: generic
+    needs_email_verification: false
+    needs_phone_verification: false
+    needs_captcha: false
+    requirements: "Online submission"
+    notes: "Online removal tool will complete the process."
+
+  - id: ok_caller
+    name: "OK Caller"
+    opt_out_url: "https://old-friends.co/"
+    platform: generic
+    needs_email_verification: false
+    needs_phone_verification: false
+    needs_captcha: false
+    requirements: "Online submission"
+    notes: "Within results, click any option to \u201cOpt-out\u201d or \u201cUnlist\u201d."
+
+  - id: old_friends
+    name: "Old Friends"
+    opt_out_url: "https://old-friends.co/"
+    platform: generic
+    needs_email_verification: false
+    needs_phone_verification: false
+    needs_captcha: false
+    requirements: "Online submission (Hover over name)"
+    notes: "Online removal tool will complete the process."
+
+  - id: old_phone_book
+    name: "Old Phone Book"
+    opt_out_url: "https://www.beenverified.com/app/optout/search"
+    platform: beenverified
+    needs_email_verification: true
+    needs_phone_verification: false
+    needs_captcha: false
+    requirements: "Email submission"
+    notes: "Click the removal link below any results."
+
+  - id: open_corporates
+    name: "Open Corporates"
+    opt_out_url: "https://www.beenverified.com/app/optout/search"
+    platform: beenverified
+    needs_email_verification: true
+    needs_phone_verification: false
+    needs_captcha: false
+    requirements: "Email submission"
+    notes: "Send removal request with public details via email."
+
+  - id: ownerly
+    name: "Ownerly"
+    opt_out_url: "https://www.beenverified.com/app/optout/search"
+    platform: beenverified
+    needs_email_verification: false
+    needs_phone_verification: false
+    needs_captcha: false
+    requirements: "Online submission"
+    notes: "Online removal tool will complete the process."
+
+  - id: peekyou
+    name: "PeekYou"
+    opt_out_url: "https://www.peekyou.com/about/contact/optout/"
+    platform: generic
+    needs_email_verification: false
+    needs_phone_verification: false
+    needs_captcha: false
+    requirements: "Online submission"
+    notes: "Online removal tool will complete the process."
+
+  - id: peep_lookup
+    name: "Peep Lookup"
+    opt_out_url: "https://www.peeplookup.com/opt_out"
+    platform: generic
+    needs_email_verification: false
+    needs_phone_verification: false
+    needs_captcha: false
+    requirements: "Online submission"
+    notes: "Online removal tool will complete the process."
+
+  - id: peoplebackgroundcheck
+    name: "PeopleBackgroundCheck"
+    opt_out_url: "https://people-background-check.com/ng/control/privacy"
+    platform: records_removal
+    needs_email_verification: false
+    needs_phone_verification: false
+    needs_captcha: false
+    requirements: "Online submission"
+    notes: "Online removal tool will complete the process."
+
+  - id: people_by_name
+    name: "People By Name"
+    opt_out_url: "https://www.peoplebyname.com/remove.php"
+    platform: generic
+    needs_email_verification: false
+    needs_phone_verification: false
+    needs_captcha: false
+    requirements: "Online submission"
+    notes: "Online removal tool will complete the process."
+
+  - id: people_by_phone
+    name: "People By Phone"
+    opt_out_url: "https://www.peoplebyphone.com/remove-my-number/"
+    platform: generic
+    needs_email_verification: false
+    needs_phone_verification: false
+    needs_captcha: false
+    requirements: "Online submission"
+    notes: "Online removal tool will complete the process."
+
+  - id: people_data_labs
+    name: "People Data Labs"
+    opt_out_url: "https://www.peopledatalabs.com/opt-out-form"
+    platform: generic
+    needs_email_verification: false
+    needs_phone_verification: false
+    needs_captcha: false
+    requirements: "Online submission"
+    notes: "Online removal tool will complete the process."
+
+  - id: people_finder
+    name: "People Finder"
+    opt_out_url: "https://peoplefinder.com/optout.php"
+    platform: generic
+    needs_email_verification: true
+    needs_phone_verification: false
+    needs_captcha: false
+    requirements: "Online submission, email verification"
+    notes: "Intelius online removal tool will complete the process."
+
+  - id: people_finders
+    name: "People Finders"
+    opt_out_url: "https://www.peoplefinders.com/opt-out#IT"
+    platform: peoplefinders
+    needs_email_verification: false
+    needs_phone_verification: false
+    needs_captcha: false
+    requirements: "Online submission"
+    notes: "Online removal tool will complete the process."
+
+  - id: people_looker
+    name: "People Looker"
+    opt_out_url: "https://www.peoplelooker.com/f/optout/search"
+    platform: generic
+    needs_email_verification: false
+    needs_phone_verification: false
+    needs_captcha: false
+    requirements: "Online submission"
+    notes: "Online removal tool will complete the process."
+
+  - id: people_search
+    name: "People-Search"
+    opt_out_url: "https://www.peoplesearch123.com/optOut/name/landing"
+    platform: generic
+    needs_email_verification: false
+    needs_phone_verification: false
+    needs_captcha: false
+    requirements: "Online submission"
+    notes: "Online removal tool will complete the process."
+
+  - id: people_search_123
+    name: "People Search 123"
+    opt_out_url: "https://www.peoplesearch123.com/optOut/name/landing"
+    platform: generic
+    needs_email_verification: false
+    needs_phone_verification: false
+    needs_captcha: false
+    requirements: "Online submission"
+    notes: "Online removal tool will complete the process."
+
+  - id: people_search_expert
+    name: "People Search Expert"
+    opt_out_url: "https://www.peoplesearchnow.com/opt-out"
+    platform: generic
+    needs_email_verification: false
+    needs_phone_verification: false
+    needs_captcha: false
+    requirements: "Online submission"
+    notes: "Online removal tool will complete the process."
+
+  - id: people_search_now
+    name: "People Search Now"
+    opt_out_url: "https://www.peoplesearchnow.com/opt-out"
+    platform: generic
+    needs_email_verification: false
+    needs_phone_verification: false
+    needs_captcha: false
+    requirements: "Postal mail submission"
+    notes: "Complete form and mail to listed address."
+
+  - id: people_searcher
+    name: "People Searcher"
+    opt_out_url: "https://www.peoplesearcher.com/optOut/name/landing"
+    platform: generic
+    needs_email_verification: false
+    needs_phone_verification: false
+    needs_captcha: false
+    requirements: "Online submission"
+    notes: "Online removal tool will complete the process."
+
+  - id: people_smart
+    name: "People Smart"
+    opt_out_url: "https://www.peoplesmart.com/app/optout/search"
+    platform: generic
+    needs_email_verification: false
+    needs_phone_verification: false
+    needs_captcha: false
+    requirements: "Online submission"
+    notes: "Been Verified online removal tool will complete the process."
+
+  - id: people_trace_uk
+    name: "People Trace UK"
+    opt_out_url: "https://www.peopletraceuk.com/RequestRecordRemoval.asp"
+    platform: generic
+    needs_email_verification: false
+    needs_phone_verification: false
+    needs_captcha: false
+    requirements: "Online submission"
+    notes: "Online removal tool will complete the process."
+
+  - id: people_whiz
+    name: "People Whiz"
+    opt_out_url: "https://www.peoplewhiz.com/remove-my-info"
+    platform: generic
+    needs_email_verification: true
+    needs_phone_verification: false
+    needs_captcha: false
+    requirements: "Online submission"
+    notes: "Online removal tool plus email confirmation will complete the process."
+
+  - id: persopo
+    name: "Persopo"
+    opt_out_url: "https://pipl.com/personal-information-removal-request"
+    platform: generic
+    needs_email_verification: true
+    needs_phone_verification: false
+    needs_captcha: false
+    requirements: "Email submission"
+    notes: "Send email with removal request. Removes data from several subsidiaries."
+
+  - id: phone_owner
+    name: "Phone Owner"
+    opt_out_url: "https://pipl.com/personal-information-removal-request"
+    platform: generic
+    needs_email_verification: true
+    needs_phone_verification: false
+    needs_captcha: false
+    requirements: "Email submission"
+    notes: "Send email with removal request. Removes data from several subsidiaries."
+
+  - id: phonebooks
+    name: "Phonebooks"
+    opt_out_url: "https://pipl.com/personal-information-removal-request"
+    platform: generic
+    needs_email_verification: false
+    needs_phone_verification: false
+    needs_captcha: false
+    requirements: "Online submission"
+    notes: "Find the \u201cRequest That This Person Be Removed\u201d link in the bottom right corner of the page."
+
+  - id: pipl
+    name: "Pipl"
+    opt_out_url: "https://pipl.com/personal-information-removal-request"
+    platform: generic
+    needs_email_verification: true
+    needs_phone_verification: false
+    needs_captcha: false
+    requirements: "Online submission, email verification"
+    notes: "Online removal tool will complete the process."
+
+  - id: plaid
+    name: "Plaid"
+    opt_out_url: "https://plaid.com/legal/data-protection-request-form/"
+    platform: generic
+    needs_email_verification: true
+    needs_phone_verification: false
+    needs_captcha: false
+    requirements: "Online submission, email verification"
+    notes: "Online removal tool will complete the process."
+
+  - id: private_records
+    name: "Private Records"
+    opt_out_url: "https://www.privaterecords.net/optOut/name/landing"
+    platform: generic
+    needs_email_verification: false
+    needs_phone_verification: false
+    needs_captcha: false
+    requirements: "Online submission"
+    notes: "Online removal tool will complete the process."
+
+  - id: pro_people_search
+    name: "Pro People Search"
+    opt_out_url: "https://propeoplesearch.com/optout"
+    platform: generic
+    needs_email_verification: false
+    needs_phone_verification: false
+    needs_captcha: false
+    requirements: "Online submission"
+    notes: "Online removal tool will complete the process."
+
+  - id: property_shark
+    name: "Property Shark"
+    opt_out_url: "https://pub360.com/ng/control/privacy"
+    platform: records_removal
+    needs_email_verification: true
+    needs_phone_verification: false
+    needs_captcha: false
+    requirements: "Email Submission"
+    notes: "Send email with removal request."
+
+  - id: pub360
+    name: "Pub360"
+    opt_out_url: "https://pub360.com/ng/control/privacy"
+    platform: records_removal
+    needs_email_verification: false
+    needs_phone_verification: false
+    needs_captcha: false
+    requirements: "Online submission"
+    notes: "Online removal tool will complete the process."
+
+  - id: public_data_usa
+    name: "Public Data USA"
+    opt_out_url: "https://publicdatausa.com/remove.php"
+    platform: generic
+    needs_email_verification: false
+    needs_phone_verification: false
+    needs_captcha: false
+    requirements: "Online submission"
+    notes: "Online removal tool will complete the process."
+
+  - id: public_info_services
+    name: "Public Info Services"
+    opt_out_url: "https://www.publicinfoservices.com/help-center/remove-me-from-website"
+    platform: generic
+    needs_email_verification: false
+    needs_phone_verification: false
+    needs_captcha: false
+    requirements: "Online submission"
+    notes: "Online removal tool will complete the process."
+
+  - id: public_records_search
+    name: "Public Records Search"
+    opt_out_url: "https://www.peoplefinders.com/opt-out#IT"
+    platform: peoplefinders
+    needs_email_verification: false
+    needs_phone_verification: false
+    needs_captcha: false
+    requirements: "Online Submission"
+    notes: "Intelius online removal tool will complete the process."
+
+  - id: publishers_clearing_house
+    name: "Publishers Clearing House"
+    opt_out_url: "https://www.peoplefinders.com/opt-out#IT"
+    platform: peoplefinders
+    needs_email_verification: true
+    needs_phone_verification: false
+    needs_captcha: false
+    requirements: "Email submission"
+    notes: "Send email with name and address and request to be removed from all databases."
+
+  - id: quick_people_trace
+    name: "Quick People Trace"
+    opt_out_url: "https://www.peoplefinders.com/opt-out#IT"
+    platform: peoplefinders
+    needs_email_verification: true
+    needs_phone_verification: false
+    needs_captcha: false
+    requirements: "Email submission"
+    notes: "Send email with name and address and request to be removed from all databases."
+
+  - id: radaris
+    name: "Radaris"
+    opt_out_url: "https://radaris.com/control/privacy"
+    platform: radaris
+    needs_email_verification: true
+    needs_phone_verification: false
+    needs_captcha: false
+    requirements: "Online submission, email verification"
+    notes: "Select your profile and submit to removal URL."
+
+  - id: rehold
+    name: "Rehold"
+    opt_out_url: "https://www.revealname.com/opt_out"
+    platform: generic
+    needs_email_verification: false
+    needs_phone_verification: false
+    needs_captcha: false
+    requirements: "Online submission"
+    notes: "Click \u201cInformation Control\u201d on right side of page and follow directions."
+
+  - id: retailmenot_redplum
+    name: "RetailMeNot/Redplum"
+    opt_out_url: "https://www.revealname.com/opt_out"
+    platform: generic
+    needs_email_verification: false
+    needs_phone_verification: false
+    needs_captcha: false
+    requirements: "Online submission"
+    notes: "Request removal of information through the contact support page."
+
+  - id: reveal_name
+    name: "Reveal Name"
+    opt_out_url: "https://www.revealname.com/opt_out"
+    platform: generic
+    needs_email_verification: false
+    needs_phone_verification: false
+    needs_captcha: false
+    requirements: "Online submission"
+    notes: "Online removal tool will complete the process, must know full URL."
+
+  - id: reveal_phone_owner
+    name: "Reveal Phone Owner"
+    opt_out_url: "https://www.revealphoneowner.com/data-removal"
+    platform: generic
+    needs_email_verification: false
+    needs_phone_verification: false
+    needs_captcha: false
+    requirements: "Online submission"
+    notes: "Online removal tool will complete the process."
+
+  - id: reverse_phone_lookup
+    name: "Reverse Phone Lookup"
+    opt_out_url: "http://salespidermedia.com/opt-out-and-information-removal.php"
+    platform: generic
+    needs_email_verification: false
+    needs_phone_verification: false
+    needs_captcha: false
+    requirements: "Online submission"
+    notes: "Intelius online removal tool will complete the process."
+
+  - id: sales_spider
+    name: "Sales Spider"
+    opt_out_url: "http://salespidermedia.com/opt-out-and-information-removal.php"
+    platform: generic
+    needs_email_verification: false
+    needs_phone_verification: false
+    needs_captcha: false
+    requirements: "Online submission"
+    notes: "Locate profile and select \u201cDelete this profile\u201d."
+
+  - id: search_bug
+    name: "Search Bug"
+    opt_out_url: "https://www.searchbug.com/peoplefinder/how-to-remove.aspx"
+    platform: generic
+    needs_email_verification: false
+    needs_phone_verification: false
+    needs_captcha: false
+    requirements: "Online submission"
+    notes: "Online removal tool will complete the process."
+
+  - id: search_people_free
+    name: "Search People Free"
+    opt_out_url: "https://www.searchpeoplefree.com/opt-out"
+    platform: generic
+    needs_email_verification: false
+    needs_phone_verification: false
+    needs_captcha: false
+    requirements: "Online submission"
+    notes: "Online removal tool will complete the process."
+
+  - id: search_quarry
+    name: "Search Quarry"
+    opt_out_url: "https://members.searchquarry.com/removeMyData/"
+    platform: generic
+    needs_email_verification: false
+    needs_phone_verification: false
+    needs_captcha: false
+    requirements: "Online submission"
+    notes: "Online removal tool will complete the process."
+
+  - id: selfie_systems
+    name: "Selfie Systems"
+    opt_out_url: "https://www.spokeo.com/optout"
+    platform: spokeo
+    needs_email_verification: false
+    needs_phone_verification: false
+    needs_captcha: false
+    requirements: "Online submission"
+    notes: "Spokeo online removal tool will complete the process."
+
+  - id: smart_background_checks
+    name: "Smart Background Checks"
+    opt_out_url: "https://www.smartbackgroundchecks.com/optout"
+    platform: generic
+    needs_email_verification: false
+    needs_phone_verification: false
+    needs_captcha: false
+    requirements: "Online submission"
+    notes: "Online removal tool will complete the process."
+
+  - id: social_catfish
+    name: "Social Catfish"
+    opt_out_url: "https://socialcatfish.com/opt-out/"
+    platform: generic
+    needs_email_verification: false
+    needs_phone_verification: false
+    needs_captcha: false
+    requirements: "Online submission"
+    notes: "Online removal tool will complete the process."
+
+  - id: spy_dialer
+    name: "Spy Dialer"
+    opt_out_url: "https://www.spydialer.com/optout.aspx"
+    platform: generic
+    needs_email_verification: false
+    needs_phone_verification: false
+    needs_captcha: false
+    requirements: "Online submission"
+    notes: "Online removal tool will complete the process."
+
+  - id: spokeo
+    name: "Spokeo"
+    opt_out_url: "https://www.spokeo.com/optout"
+    platform: spokeo
+    needs_email_verification: true
+    needs_phone_verification: false
+    needs_captcha: false
+    requirements: "Online submission, email verification"
+    notes: "Online removal tool will complete the process."
+
+  - id: spyfly
+    name: "SpyFly"
+    opt_out_url: "https://www.spyfly.com/help-center/remove-info"
+    platform: generic
+    needs_email_verification: true
+    needs_phone_verification: false
+    needs_captcha: false
+    requirements: "Email submission"
+    notes: "Sens email requesting removal."
+
+  - id: spytox
+    name: "Spytox"
+    opt_out_url: "https://www.spytox.com/opt_out"
+    platform: generic
+    needs_email_verification: true
+    needs_phone_verification: false
+    needs_captcha: false
+    requirements: "Online & Email submission"
+    notes: "Online removal tool will complete the process."
+
+  - id: state_records
+    name: "State Records"
+    opt_out_url: "https://infotracer.com/optout/"
+    platform: generic
+    needs_email_verification: false
+    needs_phone_verification: false
+    needs_captcha: false
+    requirements: "Online submission"
+    notes: "Online removal tool for InfoTracer will complete the process."
+
+  - id: super_pages
+    name: "Super Pages"
+    opt_out_url: "https://tinyurl.com/dexknowscom"
+    platform: generic
+    needs_email_verification: false
+    needs_phone_verification: false
+    needs_captcha: false
+    requirements: "Online submission"
+    notes: "Online removal tool will complete the process."
+
+  - id: sync_me
+    name: "Sync Me"
+    opt_out_url: "https://sync.me/optout/"
+    platform: generic
+    needs_email_verification: false
+    needs_phone_verification: false
+    needs_captcha: false
+    requirements: "Online submission"
+    notes: "Online removal tool will complete the process."
+
+  - id: telephone_directories
+    name: "Telephone Directories"
+    opt_out_url: "https://www.telephonedirectories.us/Edit_Records"
+    platform: generic
+    needs_email_verification: false
+    needs_phone_verification: false
+    needs_captcha: false
+    requirements: "Online submission"
+    notes: "Online removal tool will complete the process."
+
+  - id: tenn_help
+    name: "Tenn Help"
+    opt_out_url: "https://www.tennhelp.com/public-resources/change-listing.html"
+    platform: generic
+    needs_email_verification: false
+    needs_phone_verification: false
+    needs_captcha: false
+    requirements: "Online submission"
+    notes: "Online removal tool will complete the process."
+
+  - id: that_s_them
+    name: "That\u2019s Them"
+    opt_out_url: "https://thatsthem.com/optout"
+    platform: generic
+    needs_email_verification: false
+    needs_phone_verification: false
+    needs_captcha: false
+    requirements: "Online submission"
+    notes: "Online removal tool will complete the process."
+
+  - id: the_real_yellow_pages
+    name: "The Real Yellow Pages"
+    opt_out_url: "https://tinyurl.com/dexknowscom"
+    platform: generic
+    needs_email_verification: false
+    needs_phone_verification: false
+    needs_captcha: false
+    requirements: "Online submission"
+    notes: "Online removal tool will complete the process."
+
+  - id: thomson_reuters_westlaw_clear
+    name: "Thomson Reuters/Westlaw/CLEAR"
+    opt_out_url: "https://privacyportal-cdn.onetrust.com/dsarwebform/dbf5ae8a-0a6a-4f4b-b527-7f94d0de6bbc/5dc91c0f-f1b7-4b6e-9d42-76043adaf72d.html"
+    platform: generic
+    needs_email_verification: true
+    needs_phone_verification: false
+    needs_captcha: false
+    requirements: "Email submission"
+    notes: "Send email with removal request."
+
+  - id: tlo
+    name: "TLO"
+    opt_out_url: "https://service.transunion.com/dss/ccpa_optout.page"
+    platform: generic
+    needs_email_verification: true
+    needs_phone_verification: false
+    needs_captcha: false
+    requirements: "Email and online submission"
+    notes: "Send demand via email and website to remove all records. Expect resistance."
+
+  - id: true_caller
+    name: "True Caller"
+    opt_out_url: "https://www.truecaller.com/unlisting"
+    platform: generic
+    needs_email_verification: false
+    needs_phone_verification: false
+    needs_captcha: false
+    requirements: "Online submission"
+    notes: "Online removal tool will complete the process."
+
+  - id: true_people_search
+    name: "True People Search"
+    opt_out_url: "https://www.truepeoplesearch.com/removal"
+    platform: generic
+    needs_email_verification: false
+    needs_phone_verification: false
+    needs_captcha: false
+    requirements: "Online submission"
+    notes: "Online removal tool will complete the process."
+
+  - id: true_people_search_net
+    name: "True People Search.net"
+    opt_out_url: "https://truepeoplesearch.net/remove-my-info"
+    platform: generic
+    needs_email_verification: true
+    needs_phone_verification: false
+    needs_captcha: false
+    requirements: "Email submission"
+    notes: "Email request required."
+
+  - id: truth_finder
+    name: "Truth Finder"
+    opt_out_url: "https://www.truthfinder.com/opt-out/"
+    platform: generic
+    needs_email_verification: false
+    needs_phone_verification: false
+    needs_captcha: false
+    requirements: "Online submission"
+    notes: "Online removal tool will complete the process."
+
+  - id: ufind
+    name: "UFind"
+    opt_out_url: "http://www.unitedstatesphonebook.com/contact.php"
+    platform: generic
+    needs_email_verification: true
+    needs_phone_verification: false
+    needs_captcha: false
+    requirements: "Email submission"
+    notes: "Send email with removal request. Removes data from several subsidiaries."
+
+  - id: united_states_phonebook
+    name: "United States Phonebook"
+    opt_out_url: "http://www.unitedstatesphonebook.com/contact.php"
+    platform: generic
+    needs_email_verification: true
+    needs_phone_verification: false
+    needs_captcha: false
+    requirements: "Email submission"
+    notes: "Send email with removal request. Removes data from several subsidiaries."
+
+  - id: unmask
+    name: "Unmask"
+    opt_out_url: "https://unmask.com/opt-out"
+    platform: generic
+    needs_email_verification: false
+    needs_phone_verification: false
+    needs_captcha: false
+    requirements: "Online submission"
+    notes: "Online removal tool will complete the process."
+
+  - id: usa_official
+    name: "USA Official"
+    opt_out_url: "https://usa-official.com/remove.php"
+    platform: generic
+    needs_email_verification: false
+    needs_phone_verification: false
+    needs_captcha: false
+    requirements: "Online submission"
+    notes: "Online removal tool will complete the process."
+
+  - id: usa_people_search
+    name: "USA People Search"
+    opt_out_url: "https://www.usa-people-search.com/manage/"
+    platform: generic
+    needs_email_verification: false
+    needs_phone_verification: false
+    needs_captcha: false
+    requirements: "Online submission"
+    notes: "Online removal tool will complete the process."
+
+  - id: us_phonebook
+    name: "US Phonebook"
+    opt_out_url: "https://www.usphonebook.com/opt-out"
+    platform: generic
+    needs_email_verification: false
+    needs_phone_verification: false
+    needs_captcha: false
+    requirements: "Online submission"
+    notes: "Online removal tool will complete the process."
+
+  - id: usa_trace
+    name: "USA Trace"
+    opt_out_url: "https://www.peoplefinders.com/opt-out#IT"
+    platform: peoplefinders
+    needs_email_verification: false
+    needs_phone_verification: false
+    needs_captcha: false
+    requirements: "Online submission"
+    notes: "Online removal tool will complete the process."
+
+  - id: us_search
+    name: "US Search"
+    opt_out_url: "https://www.ussearch.com/opt-out/submit/"
+    platform: generic
+    needs_email_verification: false
+    needs_phone_verification: false
+    needs_captcha: false
+    requirements: "Online submission"
+    notes: "Online removal tool will complete the process."
+
+  - id: valid_number
+    name: "Valid Number"
+    opt_out_url: "https://www.valpak.com/coupons/show/mailinglistsuppression"
+    platform: generic
+    needs_email_verification: false
+    needs_phone_verification: false
+    needs_captcha: false
+    requirements: "Online submission"
+    notes: "Send removal request through contact page."
+
+  - id: valpak_cox
+    name: "Valpak/Cox"
+    opt_out_url: "https://www.valpak.com/coupons/show/mailinglistsuppression"
+    platform: generic
+    needs_email_verification: false
+    needs_phone_verification: false
+    needs_captcha: false
+    requirements: "Online submission"
+    notes: "Online removal tool will complete the process."
+
+  - id: vehicle_history
+    name: "Vehicle History"
+    opt_out_url: "https://findrec.com/page/privacy"
+    platform: generic
+    needs_email_verification: true
+    needs_phone_verification: false
+    needs_captcha: false
+    requirements: "Email submission"
+    notes: "Send email with removal request."
+
+  - id: verecor
+    name: "Verecor"
+    opt_out_url: "https://findrec.com/page/privacy"
+    platform: generic
+    needs_email_verification: false
+    needs_phone_verification: false
+    needs_captcha: false
+    requirements: "Online submission"
+    notes: "Online removal tool will complete the process."
+
+  - id: vericora
+    name: "Vericora"
+    opt_out_url: "https://vericora.com/ng/control/privacy"
+    platform: records_removal
+    needs_email_verification: false
+    needs_phone_verification: false
+    needs_captcha: false
+    requirements: "Online submission"
+    notes: "Online removal tool will complete the process."
+
+  - id: veriforia
+    name: "Veriforia"
+    opt_out_url: "https://veriforia.com/ng/control/privacy"
+    platform: records_removal
+    needs_email_verification: false
+    needs_phone_verification: false
+    needs_captcha: false
+    requirements: "Online submission"
+    notes: "Online removal tool will complete the process."
+
+  - id: veripages
+    name: "Veripages"
+    opt_out_url: "https://veripages.com/page/contact"
+    platform: generic
+    needs_email_verification: true
+    needs_phone_verification: false
+    needs_captcha: false
+    requirements: "Email or online submission"
+    notes: "Send email with removal request or click \u201cControl Profile\u201d which will enable an opt-out."
+
+  - id: visa
+    name: "Visa"
+    opt_out_url: "https://marketingreportoptout.visa.com/OPTOUT/request.do"
+    platform: generic
+    needs_email_verification: false
+    needs_phone_verification: false
+    needs_captcha: false
+    requirements: "Online submission"
+    notes: "Online removal tool will complete the process."
+
+  - id: voter_records
+    name: "Voter Records"
+    opt_out_url: "https://voterrecords.com/faq"
+    platform: generic
+    needs_email_verification: false
+    needs_phone_verification: false
+    needs_captcha: false
+    requirements: "Online submission"
+    notes: "Follow directions in the FAQ above."
+
+  - id: white_pages
+    name: "White Pages"
+    opt_out_url: "http://www.whitepages.com/suppression_requests"
+    platform: whitepages
+    needs_email_verification: false
+    needs_phone_verification: false
+    needs_captcha: false
+    requirements: "Online submission"
+    notes: "Online removal tool will complete the process."
+
+  - id: whooster
+    name: "Whooster"
+    opt_out_url: "https://www.wyty.com/remove/"
+    platform: generic
+    needs_email_verification: true
+    needs_phone_verification: false
+    needs_captcha: false
+    requirements: "Email submission"
+    notes: "Send email with removal request."
+
+  - id: whoseno
+    name: "Whoseno"
+    opt_out_url: "https://www.wyty.com/remove/"
+    platform: generic
+    needs_email_verification: true
+    needs_phone_verification: false
+    needs_captcha: false
+    requirements: "Email submission"
+    notes: "Send email through website with removal request details."
+
+  - id: wyty
+    name: "WYTY"
+    opt_out_url: "https://www.wyty.com/remove/"
+    platform: generic
+    needs_email_verification: false
+    needs_phone_verification: false
+    needs_captcha: false
+    requirements: "Online submission"
+    notes: "Online removal tool will complete the process."
+
+  - id: yasni
+    name: "Yasni"
+    opt_out_url: "https://www.beenverified.com/app/optout/search"
+    platform: beenverified
+    needs_email_verification: false
+    needs_phone_verification: false
+    needs_captcha: false
+    requirements: "Remove data from the original source"
+    notes: "No removal option, but will identify sources of data. Will refresh occasionally."
+
+  - id: yellow_book
+    name: "Yellow Book"
+    opt_out_url: "https://www.beenverified.com/app/optout/search"
+    platform: beenverified
+    needs_email_verification: false
+    needs_phone_verification: false
+    needs_captcha: false
+    requirements: "Online submission"
+    notes: "Online removal tool will complete the process."
+
+  - id: yellow_pages
+    name: "Yellow Pages"
+    opt_out_url: "https://tinyurl.com/dexknowscom"
+    platform: generic
+    needs_email_verification: false
+    needs_phone_verification: false
+    needs_captcha: false
+    requirements: "Online submission"
+    notes: "Online removal tool will complete the process."
+
+  - id: zabasearch
+    name: "Zabasearch"
+    opt_out_url: "https://www.zoominfo.com/about-zoominfo/privacy-manage-profile"
+    platform: generic
+    needs_email_verification: false
+    needs_phone_verification: false
+    needs_captcha: false
+    requirements: "Fax submission"
+    notes: "Send your custom opt-out request form via fax to 425-974-6194."
+
+  - id: zoominfo
+    name: "ZoomInfo"
+    opt_out_url: "https://www.zoominfo.com/about-zoominfo/privacy-manage-profile"
+    platform: generic
+    needs_email_verification: true
+    needs_phone_verification: false
+    needs_captcha: false
+    requirements: "Online submission, email verification"
+    notes: "Click \u201cIs this you?\u201d in your profile. Signup and delete desired details."
