@@ -2,6 +2,7 @@
 
 import asyncio
 from playwright.async_api import Page
+from optout.captcha import detect_and_solve
 
 
 # JS injected into pages to fill form fields by label text.
@@ -182,6 +183,13 @@ class BaseHandler:
             return count > 0
         except Exception:
             return False
+
+    async def solve_captcha(self) -> bool:
+        """Attempt to auto-solve CAPTCHA if an API key is configured."""
+        api_key = self.config.get("captcha_api_key", "")
+        if not api_key:
+            return False
+        return await detect_and_solve(self.page, api_key)
 
     async def pause_for_manual(self, message: str) -> dict:
         name = self.broker["name"]

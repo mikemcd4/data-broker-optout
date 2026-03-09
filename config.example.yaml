@@ -1,6 +1,11 @@
 # Copy this file to config.yaml and fill in your information.
 # config.yaml is listed in .gitignore and will NOT be committed to git.
 
+# Optional: auto-solve CAPTCHAs via 2captcha.com (~$3 per 1000 solves)
+# Sign up at https://2captcha.com, add credit, paste your API key here.
+# Leave blank to solve CAPTCHAs manually.
+captcha_api_key: ""
+
 personal:
   first_name: "John"
   last_name: "Doe"

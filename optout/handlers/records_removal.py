@@ -20,8 +20,10 @@ class RecordsRemovalHandler(BaseHandler):
         await self.fill_form()
 
         if await self.has_captcha():
-            print(f"      [CAPTCHA] Please solve the CAPTCHA, then press Enter.")
-            input("      Press Enter after solving > ")
+            solved = await self.solve_captcha()
+            if not solved:
+                print(f"      [CAPTCHA] Please solve the CAPTCHA, then press Enter.")
+                input("      Press Enter after solving > ")
 
         submitted = await self.submit_form()
         if submitted:
